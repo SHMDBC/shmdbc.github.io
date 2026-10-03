@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="ko" data-lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>이병찬 — 커뮤니케이터, 프론트엔드</title>
+  <meta name="description" content="한국어·영어 통번역과 현장 커뮤니케이션 7년. 금융 약관을 쉽게 설명하는 팀 프로젝트 '약관 돋보기'의 프론트엔드를 맡고 있습니다.">
+  <link rel="canonical" href="https://shmdbc.github.io/portfolio/">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://shmdbc.github.io/portfolio/">
+  <meta property="og:title" content="이병찬 — 어려운 말을, 이해되는 말로.">
+  <meta property="og:description" content="통번역 7년의 커뮤니케이터, 약관 돋보기 프론트엔드.">
+  <meta property="og:image" content="https://shmdbc.github.io/portfolio/assets/og-cover.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#0a0a0a">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css?v=20261003b">
+  <script>
+    // 인트로는 JS가 있고, 해시 진입이 아니고, 동작 줄이기가 꺼져 있을 때만
+    (function () {
+      var d = document.documentElement;
+      d.classList.add('js');
+      var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      if (!reduce && !location.hash) d.classList.add('intro-on');
+    })();
+  </script>
+  <script src="main.js?v=20261003b" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main"><span class="ko">본문으로 건너뛰기</span><span class="en" lang="en">Skip to content</span></a>
+
+  <div class="intro" aria-hidden="true"><span class="intro__line"></span></div>
+
+  <header class="top" id="top-bar">
+    <a class="top__name" href="#top">LEE BYEONGCHAN</a>
+
+    <button class="top__menu" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span class="ko">메뉴</span><span class="en" lang="en">MENU</span>
+    </button>
+
+    <nav class="top__nav" id="site-nav" aria-label="섹션 이동" data-label-en="Sections">
+      <a href="#about">ABOUT</a>
+      <a href="#work">WORK</a>
+      <a href="#experience">EXPERIENCE</a>
+      <a href="#skills">SKILLS</a>
+      <a href="#contact">CONTACT</a>
+    </nav>
+
+    <div class="lang" role="group" aria-label="언어 선택" data-label-en="Language">
+      <button type="button" data-set-lang="ko" aria-pressed="true" lang="ko">KO</button>
+      <span aria-hidden="true">—</span>
+      <button type="button" data-set-lang="en" aria-pressed="false" lang="en">EN</button>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <h1 class="hero__title" id="hero-title">
+        <span class="ko">어려운 말을,<br>이해되는 말로.</span>
+        <span class="en" lang="en">Hard words,<br>made clear.</span>
+      </h1>
+      <p class="hero__role">
+        <span class="ko">이병찬 · 커뮤니케이터 → 프론트엔드 · 서울</span>
+        <span class="en" lang="en">Lee Byeongchan · Communicator → Frontend · Seoul</span>
+      </p>
+      <a class="hero__next" href="#about">ABOUT ↓</a>
+    </section>
+
+    <div class="dark">
+      <!-- ABOUT -->
+      <section class="row" id="about" aria-labelledby="about-label">
+        <h2 class="row__label" id="about-label">ABOUT</h2>
+        <div class="row__body reveal">
+          <p class="about__title">
+            <span class="ko">언어와 현장을 잇는 커뮤니케이터, AI로 정보를 쉽게 연결합니다.</span>
+            <span class="en" lang="en">A communicator who connects languages and worksites — now connecting information with AI.</span>
+          </p>
+          <p class="lead">
+            <span class="ko">한국어·영어 통번역과 해외 현장 커뮤니케이션 7년. EV 배터리 공장에서 본사·엔지니어·현장 작업자 사이의 기술·안전 소통을 맡아왔고, 지금은 AI를 활용해 어려운 금융 약관을 누구나 이해할 수 있게 설명하는 서비스를 팀과 함께 만들고 있습니다.</span>
+            <span class="en" lang="en">Seven years of Korean–English interpreting and on-site communication. I handled technical and safety communication between headquarters, engineers and floor workers at an EV battery plant. Now, as part of a team, I am building a service that uses AI to explain complex bank terms so that anyone can understand them.</span>
+          </p>
+        </div>
+      </section>
+
+      <!-- WORK -->
+      <section class="row" id="work" aria-labelledby="work-label">
+        <h2 class="row__label" id="work-label">WORK</h2>
+        <div class="row__body">
+          <article class="work" aria-labelledby="work-title">
+            <div class="reveal">
+              <p class="meta">
+                <span class="ko">팀 프로젝트 「약관에 동의하시겠습니까」 · 2026.08 — 진행 중 · 프론트엔드</span>
+                <span class="en" lang="en">Team project "Do You Agree to the Terms?" · Aug 2026 — ongoing · Frontend</span>
+              </p>
+              <h3 class="work__title" id="work-title">
+                <span class="ko">약관 돋보기</span>
+                <span class="en" lang="en">Terms Magnifier</span>
+              </h3>
+              <p class="work__desc">
+                <span class="ko">금융상품 약관을 원문 근거와 연결해 쉽게 설명하는 웹 서비스입니다. 사용자가 고른 예금상품에 대해 가입조건·금리·혜택·주의사항을 보여주고, 결과를 "가입조건 충족 / 미충족 / 추가 정보 필요 / 은행 확인 필요"로 나눠 안내합니다. 금융취약계층을 위해 쉬운 문장과 최소 입력을 목표로 합니다.</span>
+                <span class="en" lang="en">A web service that explains bank product terms in plain language, with each point linked to the original clause. For a chosen deposit product it shows eligibility, interest rates, benefits and caveats, and sorts results into "eligible / not eligible / more information needed / check with the bank". It aims for plain sentences and minimal input for financially vulnerable users.</span>
+              </p>
+            </div>
+
+            <div class="shots reveal">
+              <figure class="shot">
+                <a class="shot__link" href="assets/work-home-full.jpg" target="_blank" rel="noopener">
+                  <img src="assets/work-home-thumb.jpg" width="720" height="450" loading="lazy" decoding="async"
+                       alt="약관 돋보기 홈 화면 시안. 말로 찾기 검색창, 추천 검색어, 최근 바뀐 약관 목록이 보인다."
+                       data-alt-en="Terms Magnifier home screen mockup: a natural-language search box, suggested queries and a list of recently changed terms.">
+                </a>
+                <figcaption>
+                  <span class="shot__what">
+                    <span class="ko">홈 화면 — 자연어로 상품을 찾고, 개정 소식을 살펴보는 화면.</span>
+                    <span class="en" lang="en">Home — find products in plain words and follow term revisions.</span>
+                  </span>
+                  <span class="shot__note">
+                    <span class="ko">화면 시안 · 예시 데이터</span><span class="en" lang="en">Screen mockup · sample data</span>
+                    · <a href="assets/work-home-full.jpg" target="_blank" rel="noopener"><span class="ko">원본 보기</span><span class="en" lang="en">View full size</span></a>
+                  </span>
+                </figcaption>
+              </figure>
+
+              <figure class="shot">
+                <a class="shot__link" href="assets/work-product-full.jpg" target="_blank" rel="noopener">
+                  <img src="assets/work-product-thumb.jpg" width="720" height="450" loading="lazy" decoding="async"
+                       alt="약관 돋보기 상품 상세 화면 시안. 꼭 봐야 할 조건을 쉬운 문장으로 보여주고, 각 항목 아래에 약관 원문과 조항 위치를 표시한다."
+                       data-alt-en="Terms Magnifier product detail mockup: key conditions in plain sentences, each with the original clause and its location.">
+                </a>
+                <figcaption>
+                  <span class="shot__what">
+                    <span class="ko">상품 상세 — 조건과 주의사항을 쉬운 문장으로 읽고, 원문 근거를 확인하는 화면.</span>
+                    <span class="en" lang="en">Product detail — read conditions and caveats in plain sentences and check the original clause.</span>
+                  </span>
+                  <span class="shot__note">
+                    <span class="ko">화면 시안 · 예시 데이터</span><span class="en" lang="en">Screen mockup · sample data</span>
+                    · <a href="assets/work-product-full.jpg" target="_blank" rel="noopener"><span class="ko">원본 보기</span><span class="en" lang="en">View full size</span></a>
+                  </span>
+                </figcaption>
+              </figure>
+            </div>
+
+            <div class="cols reveal">
+              <div>
+                <h4 class="sub"><span class="ko">내가 맡은 일</span><span class="en" lang="en">My part</span></h4>
+                <p class="sub__note">
+                  <span class="ko">프론트엔드 담당. 소수 인원 팀이라 기획·데이터 작업까지 함께 맡았습니다.</span>
+                  <span class="en" lang="en">Frontend lead. In a small team, I also took on planning and data work.</span>
+                </p>
+                <ul class="list">
+                  <li><span class="ko">서비스 화면 전체 구현 — 상품 찾기, 말로 찾기(자연어 검색), 상품 상세, 개정 소식</span><span class="en" lang="en">Built all service screens — product finder, natural-language search, product detail, revision news</span></li>
+                  <li><span class="ko">화면 설계서(v2.3)와 웹 서비스·정책 정의서 작성</span><span class="en" lang="en">Wrote the screen design spec (v2.3) and the web service and policy definitions</span></li>
+                  <li><span class="ko">목업 시안 제작, UI 체크리스트로 화면 품질 관리</span><span class="en" lang="en">Produced mockups and managed UI quality with a checklist</span></li>
+                  <li><span class="ko">중간발표 시연 준비 — 서버 상태 점검, 데이터·모델 담당과 일정 조율</span><span class="en" lang="en">Prepared the mid-term demo — checked server status and coordinated with the data and model leads</span></li>
+                  <li><span class="ko">약관 데이터 수집·정리, 요약 모델 비교 작업에 참여</span><span class="en" lang="en">Took part in collecting and organizing terms data and comparing summary models</span></li>
+                </ul>
+              </div>
+              <div>
+                <h4 class="sub"><span class="ko">서비스 구성 (팀)</span><span class="en" lang="en">How the service works (team)</span></h4>
+                <ul class="list">
+                  <li><span class="ko">공개된 은행 예금상품 약관·특약·상품설명서 수집과 구조화</span><span class="en" lang="en">Collects and structures publicly available deposit terms, riders and product sheets</span></li>
+                  <li><span class="ko">개인화 판정은 생성 AI가 임의로 하지 않고, 검증 가능한 규칙 엔진으로 처리</span><span class="en" lang="en">Eligibility is decided by a verifiable rule engine, not left to generative AI</span></li>
+                  <li><span class="ko">한국어 요약 모델 비교 — KoBART, EXAONE, Mi:dm, Qwen3, Solar</span><span class="en" lang="en">Compares Korean summary models — KoBART, EXAONE, Mi:dm, Qwen3, Solar</span></li>
+                </ul>
+                <p class="tags">HTML · CSS · JavaScript · Node.js · Python · SQLite</p>
+              </div>
+            </div>
+
+            <blockquote class="quote reveal">
+              <p>
+                <span class="ko">통번역에서 해온 일, 즉 "어려운 말을 상대가 이해하는 말로 옮기는 일"을 금융 약관에 적용한 프로젝트입니다.</span>
+                <span class="en" lang="en">What I did as an interpreter — turning difficult language into words the listener understands — applied to bank terms.</span>
+              </p>
+            </blockquote>
+          </article>
+        </div>
+      </section>
+
+      <!-- APPROACH -->
+      <section class="row" id="approach" aria-labelledby="approach-label">
+        <h2 class="row__label" id="approach-label">APPROACH</h2>
+        <div class="row__body">
+          <ol class="approach">
+            <li class="reveal">
+              <span class="approach__num">01</span>
+              <h3><span class="ko">쉽게 설명한다</span><span class="en" lang="en">Make it plain</span></h3>
+              <p><span class="ko">복잡한 정보를 이해하기 쉬운 문장과 화면으로 정리합니다.</span><span class="en" lang="en">I turn complex information into sentences and screens that are easy to follow.</span></p>
+            </li>
+            <li class="reveal">
+              <span class="approach__num">02</span>
+              <h3><span class="ko">근거를 연결한다</span><span class="en" lang="en">Link to the source</span></h3>
+              <p><span class="ko">설명과 원문을 연결하고, 정보 부족과 확인 필요를 구분합니다.</span><span class="en" lang="en">I tie each explanation to the original text and separate "missing information" from "needs checking".</span></p>
+            </li>
+            <li class="reveal">
+              <span class="approach__num">03</span>
+              <h3><span class="ko">문서로 맞춘다</span><span class="en" lang="en">Align through documents</span></h3>
+              <p><span class="ko">화면 설계서·정책 정의서·체크리스트로 협업 기준을 정리하고, 여러 AI에 역할을 나눠 맡겨 교차 검수합니다.</span><span class="en" lang="en">I set shared standards with screen specs, policy definitions and checklists, and split work across several AI tools that review each other.</span></p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- EXPERIENCE -->
+      <section class="row" id="experience" aria-labelledby="experience-label">
+        <h2 class="row__label" id="experience-label">EXPERIENCE</h2>
+        <div class="row__body">
+          <ol class="exp">
+            <li class="exp__item reveal">
+              <p class="exp__date">2025.08 — 2026.01</p>
+              <div>
+                <h3 class="exp__org"><span class="ko">㈜윤성에프앤씨</span><span class="en" lang="en">Yunsung F&amp;C</span></h3>
+                <p class="exp__role"><span class="ko">영업관리 · 현장 통역</span><span class="en" lang="en">Sales administration · On-site interpreter</span></p>
+                <ul class="list list--plain">
+                  <li><span class="ko">EV 배터리 제조공장에서 한국 본사, 엔지니어, 현장 작업자 간 기술·운영·안전 커뮤니케이션 지원</span><span class="en" lang="en">Supported technical, operational and safety communication between Korean headquarters, engineers and floor workers at an EV battery plant</span></li>
+                  <li><span class="ko">OSHA 기반 안전 교육 환경에서 기술 지시사항과 작업 흐름 조율</span><span class="en" lang="en">Coordinated technical instructions and workflows in an OSHA-based safety training environment</span></li>
+                  <li><span class="ko">다국적 인력 간 정보 전달 책임</span><span class="en" lang="en">Responsible for information flow across a multinational workforce</span></li>
+                </ul>
+              </div>
+            </li>
+            <li class="exp__item reveal">
+              <p class="exp__date">2022.10 — 2025.07</p>
+              <div>
+                <h3 class="exp__org"><span class="ko">프리랜서</span><span class="en" lang="en">Freelance</span></h3>
+                <p class="exp__role"><span class="ko">통번역</span><span class="en" lang="en">Interpreter &amp; translator</span></p>
+                <ul class="list list--plain">
+                  <li><span class="ko">르노·폴스타·폭스바겐 등 자동차 브랜드 관련 사원 교육자료와 상품 설명서를 중심으로 번역</span><span class="en" lang="en">Translated mainly employee training materials and product manuals related to automotive brands such as Renault, Polestar and Volkswagen</span></li>
+                  <li><span class="ko">국내 외국인 대상 세미나 통역 다수</span><span class="en" lang="en">Interpreted at many seminars for international audiences in Korea</span></li>
+                  <li><span class="ko">VIP 행사 수행 통역</span><span class="en" lang="en">Escort interpreting for VIP events</span></li>
+                </ul>
+              </div>
+            </li>
+            <li class="exp__item reveal">
+              <p class="exp__date">2020.06 — 2022.07</p>
+              <div>
+                <h3 class="exp__org" lang="ko">정명회계법인</h3>
+                <p class="exp__role"><span class="ko">사무보조</span><span class="en" lang="en">Office assistant · accounting firm</span></p>
+                <ul class="list list--plain">
+                  <li><span class="ko">회계 출납, 계산서 발행, 자료 입력 등 사무 지원</span><span class="en" lang="en">Office support including cash handling, invoicing and data entry</span></li>
+                </ul>
+              </div>
+            </li>
+            <li class="exp__item reveal">
+              <p class="exp__date">2012.02 — 2012.06</p>
+              <div>
+                <h3 class="exp__org"><span class="ko">국토연구원 GDPC</span><span class="en" lang="en">KRIHS GDPC</span></h3>
+                <p class="exp__role"><span class="ko">통번역 인턴</span><span class="en" lang="en">Interpreting &amp; translation intern</span></p>
+                <ul class="list list--plain">
+                  <li><span class="ko">국제 협력 프로젝트에서 아시아·아프리카 여러 국가 관계자와 협업</span><span class="en" lang="en">Worked with officials from several Asian and African countries on international cooperation projects</span></li>
+                </ul>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section class="row" id="skills" aria-labelledby="skills-label">
+        <h2 class="row__label" id="skills-label">SKILLS</h2>
+        <div class="row__body">
+          <dl class="skills reveal">
+            <div><dt><span class="ko">언어</span><span class="en" lang="en">Languages</span></dt><dd><span class="ko">한국어(모국어), 영어(미국 4년 거주, 통번역 실무)</span><span class="en" lang="en">Korean (native), English (four years living in the US, professional interpreting and translation)</span></dd></div>
+            <div><dt><span class="ko">커뮤니케이션</span><span class="en" lang="en">Communication</span></dt><dd><span class="ko">현장 통역, VIP 수행, 다국적 이해관계자 조율</span><span class="en" lang="en">On-site interpreting, VIP escort, coordinating multinational stakeholders</span></dd></div>
+            <div><dt><span class="ko">프론트엔드</span><span class="en" lang="en">Frontend</span></dt><dd><span class="ko">HTML·CSS·JavaScript, 화면 설계서·목업 제작</span><span class="en" lang="en">HTML, CSS, JavaScript; screen specs and mockups</span></dd></div>
+            <div><dt><span class="ko">비즈니스</span><span class="en" lang="en">Business</span></dt><dd><span class="ko">해외영업·영업관리, 회계·사무</span><span class="en" lang="en">Overseas sales and sales administration, accounting and office work</span></dd></div>
+            <div><dt><span class="ko">AI 활용</span><span class="en" lang="en">AI workflow</span></dt><dd><span class="ko">Claude·Codex·Gemini 등 여러 AI에 역할을 나눠 맡기고 교차 검수하는 방식으로 작업. 이 사이트의 배포와 점검에는 AI 브라우저 Aside를 활용합니다.</span><span class="en" lang="en">I split work across AI tools such as Claude, Codex and Gemini and have them cross-review. This site is deployed and checked with the AI browser Aside.</span></dd></div>
+          </dl>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="contact" id="contact" aria-labelledby="contact-label">
+        <h2 class="row__label" id="contact-label">CONTACT</h2>
+        <a class="contact__mail" href="mailto:salbuchim@gmail.com">salbuchim<wbr>@gmail.com</a>
+        <a class="contact__top" href="#top"><span class="ko">처음으로 ↑</span><span class="en" lang="en">BACK TO TOP ↑</span></a>
+      </section>
+    </div>
+  </main>
+</body>
+</html>
