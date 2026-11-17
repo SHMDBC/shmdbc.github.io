@@ -27,7 +27,7 @@
     labelled.forEach(function (el) { el.dataset.labelKo = el.getAttribute('aria-label'); });
     images.forEach(function (img) { img.dataset.altKo = img.getAttribute('alt'); });
 
-    var titles = { ko: document.title, en: 'Lee Byeongchan — Communicator, Frontend' };
+    var titles = { ko: document.title, en: root.dataset.titleEn || 'Lee Byeongchan — Communicator, Frontend' };
 
     function setLang(lang, save) {
       root.dataset.lang = lang;
